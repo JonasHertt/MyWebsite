@@ -1,4 +1,4 @@
-import Image from "next/image";
+import StackedCardsMotion from "@/components/ScrollCards";
 
 export default function Home() {
   return (
@@ -19,10 +19,12 @@ export default function Home() {
           <p className="text-gray-600 text-xl font-semibold">Let's take the next step together!</p>
         </div>
 
-        <div className="pl-4 bg-gray-100 rounded-sm">
+        <div className="pl-4 bg-gray-100 rounded-sm mb-16">
           <h1 className="text-3xl font-bold text-txt">Who is behind this?</h1>
           <p className="text-gray-600 text-xl font-semibold">I'm Jonas Herdlitschke, a software engineer with a passion for building web applications. I'm currently working as a software engineer at <a href="https://www.google.com" className="text-primary">Google</a>.</p>
         </div>
+
+        <StackedCardsMotion />
 
       </main>
     </div>
