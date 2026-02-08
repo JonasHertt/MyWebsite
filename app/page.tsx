@@ -1,31 +1,32 @@
 import StackedCardsMotion from "@/components/ScrollCards";
+import IntroText from "@/components/IntroText";
+import StationShortcuts from "@/components/StationShortcuts";
+import StationRoadMap from "@/components/StationRoadMap";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background font-sans">
-      <main className="min-h-screen w-full py-16 px-8">
-        <div className="grid grid-cols-2 gap-4 ">
-          <div className="w-1/2 pr-4">
-            <h1></h1>
-          </div>
-          
-          <div className="bg-gray-100 text-txt text-right justify-self-end p-2 rounded-sm m-2">
-            <div>Finding Solutions</div>
-            <div>for any problems</div>
-          </div>
-        </div>
+    <div className="min-h-screen bg-background"
+      style={{
+        paddingTop: 'clamp(15vh, 20vh, 25vh)',
+        paddingRight: 'clamp(3vw, 5vw, 5vw)',
+        paddingLeft: 'clamp(3vw, 5vw, 5vw)',
+      }}>
+      <main className="w-full px-[clamp(5vw, 10vw, 10vw)] py-[clamp(10vh, 15vh, 20vh)]">
+        <section id="intro" className="">
+          <IntroText />
+        </section>
 
-        <div className="pl-4 bg-gray-100 mb-4">
-          <p className="text-gray-600 text-xl font-semibold">Let's take the next step together!</p>
-        </div>
+        <section id="skills" className="">
+          <StackedCardsMotion />
+        </section>
 
-        <div className="pl-4 bg-gray-100 rounded-sm mb-16">
-          <h1 className="text-3xl font-bold text-txt">Who is behind this?</h1>
-          <p className="text-gray-600 text-xl font-semibold">I'm Jonas Herdlitschke, a software engineer with a passion for building web applications. I'm currently working as a software engineer at <a href="https://www.google.com" className="text-primary">Google</a>.</p>
-        </div>
+        <section id="stationshortcuts" className="">
+          <StationShortcuts />
+        </section>
 
-        <StackedCardsMotion />
-
+        <section id="roadmap" className="">
+          <StationRoadMap />
+        </section>
       </main>
     </div>
   );
