@@ -18,9 +18,9 @@ export default function StationShortcuts() {
   };
 
   return (
-    <div>
+    <div className="w-full">
       <h2 className="text-3xl font-bold text-txt mb-8">Quick Navigation</h2>
-      <div className="grid grid-cols-2 gap-4 max-w-2xl">
+      <div className="grid grid-cols-2 gap-4 max-w-2xl ml-auto">
         {stations.map((station) => (
           <button
             key={station.id}

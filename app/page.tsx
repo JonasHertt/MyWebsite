@@ -7,17 +7,14 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background"
       style={{
-        paddingTop: 'clamp(15vh, 20vh, 25vh)',
+        paddingTop: 'clamp(5vh, 10vh, 15vh)',
         paddingRight: 'clamp(3vw, 5vw, 5vw)',
         paddingLeft: 'clamp(3vw, 5vw, 5vw)',
       }}>
-      <main className="w-full px-[clamp(5vw, 10vw, 10vw)] py-[clamp(10vh, 15vh, 20vh)]">
-        <section id="intro" className="">
-          <IntroText />
-        </section>
+      <main className="w-full px-[clamp(5vw, 10vw, 10vw)] pt-[clamp(2vh, 3vh, 5vh)] pb-[clamp(5vh, 5vh, 10vh)]">
 
-        <section id="skills" className="">
-          <StackedCardsMotion />
+        <section id="intro" style={{ marginBottom: 'clamp(10vh, 15vh, 20vh)' }}>
+          <IntroText />
         </section>
 
         <section id="stationshortcuts" className="">
@@ -27,6 +24,11 @@ export default function Home() {
         <section id="roadmap" className="">
           <StationRoadMap />
         </section>
+
+        <section id="skills" className="">
+          <StackedCardsMotion />
+        </section>
+
       </main>
     </div>
   );

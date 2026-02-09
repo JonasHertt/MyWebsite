@@ -25,8 +25,12 @@
 -  Softskills: analytische Fähigkeiten, hands-on mentalität, lernfähigkeit, problemlösefähigkeit,  -> kartenscrolling?
 
 
+## kartenstacking als Zusammenfassung: hardskills (software, HuA), softskills, weitere qualifikationen (wissenswertes), letzte karte: Let's take the next step together! Finding Solutions for any problems
 - weitere Qualifikationen: English C1, TT-Trainer C-Lizenz
 - Evangelisches Krankenhaus Oldenburg, Pflichtpraktikum in Audiologie, Messung von Audiogrammen, DPOAE, TEOAE, Tympanogrammen, BERA, Stapedius Reflex
+
+
+
 
 - mini blog?: ernährung, fitness, einträge von trip-panda, andere tricks
 
@@ -34,16 +38,3 @@
 
 
 
-
-
-
-
-
-
-
-Let's take the next step together!
-
-
-
-Finding Solutions
-for any problems
