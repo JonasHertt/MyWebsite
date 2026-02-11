@@ -17,15 +17,15 @@ export default function Home() {
           <IntroText />
         </section>
 
-        <section id="stationshortcuts" className="">
+        <section id="stationshortcuts" style={{ marginBottom: 'clamp(10vh, 15vh, 20vh)' }}>
           <StationShortcuts />
         </section>
 
-        <section id="roadmap" className="">
+        <section id="roadmap" style={{ marginBottom: 'clamp(10vh, 15vh, 20vh)' }}>
           <StationRoadMap />
         </section>
 
-        <section id="skills" className="">
+        <section id="skills" style={{ marginBottom: 'clamp(10vh, 15vh, 20vh)' }}>
           <StackedCardsMotion />
         </section>
 

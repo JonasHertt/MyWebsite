@@ -31,7 +31,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-18">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <h1 className="text-3xl font-bold text-secondary">Jonas Herdlitschke</h1>
+              <a href="/" className="text-3xl font-bold text-secondary hover:opacity-80 transition-opacity duration-200">Jonas Herdlitschke</a>
             </div>
           </div>
           

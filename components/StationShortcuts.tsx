@@ -2,12 +2,12 @@
 
 export default function StationShortcuts() {
   const stations = [
-    { id: "station-1", label: "Station 1" },
-    { id: "station-2", label: "Station 2" },
-    { id: "station-3", label: "Station 3" },
-    { id: "station-4", label: "Station 4" },
-    { id: "station-5", label: "Station 5" },
-    { id: "station-6", label: "Station 6" },
+    { id: "station-6", label: "6) Trip-Panda"},
+    { id: "station-5", label: "5) Sennheiser"},
+    { id: "station-4", label: "4) Fraunhofer-Institut"},
+    { id: "station-3", label: "3) B.Eng. H & A"},
+    { id: "station-2", label: "2) Work & Travel"},
+    { id: "station-1", label: "1) GBA" },
   ];
 
   const scrollToStation = (stationId: string) => {
@@ -19,8 +19,8 @@ export default function StationShortcuts() {
 
   return (
     <div className="w-full">
-      <h2 className="text-3xl font-bold text-txt mb-8">Quick Navigation</h2>
-      <div className="grid grid-cols-2 gap-4 max-w-2xl ml-auto">
+      <h2 className="text-3xl font-bold text-txt mb-8">Key Milestones</h2>
+      <div className="grid grid-cols-2 gap-4 max-w-2xl mr-auto">
         {stations.map((station) => (
           <button
             key={station.id}
