@@ -25,13 +25,12 @@ export default function StationShortcuts() {
           <button
             key={station.id}
             onClick={() => scrollToStation(station.id)}
-            className="relative bg-txt text-white transition-all duration-200 ease-out flex items-center justify-center shadow-lg py-3 px-8 hover:translate-x-4 hover:scale-105 hover:shadow-xl"
+            className="relative flex min-h-[38px] items-center justify-center bg-txt px-3 py-1.5 text-white shadow-lg transition-all duration-200 ease-out hover:translate-x-4 hover:scale-105 hover:shadow-xl sm:min-h-[48px] sm:px-8 sm:py-3"
             style={{
               clipPath: "polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)",
-              minHeight: "48px",
             }}
           >
-            <span className="text-base font-semibold">
+            <span className="text-center text-[clamp(0.9rem,3vw,1rem)] font-semibold leading-tight sm:text-base">
               {station.label}
             </span>
           </button>

@@ -28,12 +28,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${montserrat.variable} ${poppins.variable} antialiased`}
+        className={`${montserrat.variable} ${poppins.variable} antialiased overflow-x-hidden`}
       >
-        <header className="sticky top-0 z-50 w-full">
+        <header className="fixed left-0 right-0 top-0 z-[9999] w-full">
           <Navbar />
         </header>
-        {children}
+        <div className="pt-[72px] md:pt-[84px]">
+          {children}
+        </div>
         <footer className="w-full">
           <Footer />
         </footer>
