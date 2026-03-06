@@ -2,12 +2,12 @@
 
 export default function StationShortcuts() {
   const stations = [
-    { id: "station-6", label: "6) Trip-Panda"},
-    { id: "station-5", label: "5) Sennheiser"},
-    { id: "station-4", label: "4) Fraunhofer-Institut"},
-    { id: "station-3", label: "3) B.Eng. H & A"},
-    { id: "station-2", label: "2) Work & Travel"},
-    { id: "station-1", label: "1) GBA" },
+    { id: "station-6", label: "2025: Trip-Panda"},
+    { id: "station-5", label: "2024: Sennheiser"},
+    { id: "station-4", label: "2023: Fraunhofer-Institut"},
+    { id: "station-3", label: "2020: B.Eng. H & A"},
+    { id: "station-2", label: "2019: Work & Travel"},
+    { id: "station-1", label: "2018: GBA" },
   ];
 
   const scrollToStation = (stationId: string) => {

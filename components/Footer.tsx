@@ -3,15 +3,7 @@ export default function Footer() {
     <footer className="w-full bg-white border-t border-gray-300 py-12">
       <div className="mx-auto" style={{ paddingRight: 'clamp(3vw, 5vw, 10vw)', paddingLeft: 'clamp(3vw, 5vw, 10vw)' }}>
         {/* Hauptinhalt */}
-        <div className="flex flex-col md:flex-row gap-8 mb-8 w-full">
-          {/* Über mich */}
-          <div className="flex-1 min-w-0 text-center">
-            <h3 className="text-lg font-bold text-txt mb-4">Über mich</h3>
-            <p className="text-sm text-txt opacity-80">
-              Interdisciplinary Engineer mit Leidenschaft für innovative Lösungen. 
-              Ich entwickle Produkte, die komplexe Herausforderungen elegant lösen.
-            </p>
-          </div>
+        <div className="mb-8 grid w-full grid-cols-2 gap-6 md:gap-8">
 
           {/* Quick Links */}
           <div className="flex-1 min-w-0 text-center">
@@ -83,7 +75,7 @@ export default function Footer() {
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6">
             <a
-              href="#kontakt"
+              href="mailto:jonas@herdlitschke.de"
               className="text-sm text-txt hover:text-gray-300 transition-colors duration-200"
             >
               Kontakt
